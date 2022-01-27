@@ -1,0 +1,58 @@
+header{
+
+	background: orange;
+}
+
+h1{
+
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+
+main{
+
+	padding: 30px;
+	margin: 10, auto;
+	font-size: 17px;
+
+
+}
+
+p{
+	padding: 15px;
+	text-align: left;
+	font-size: 25px;
+}
+
+.input-texto{
+
+	display: block;
+	margin: 2px;
+	padding: 15px, 30px;
+	width: 30%;
+	border-radius: 5px; 
+
+}
+
+.botao{
+	background: orange;
+	border-radius: 8px;
+	width: 15%;
+	border: 3px;
+
+}
+
+.botao:hover{
+
+	background: darkorange;
+	transition: 0.5s all;
+}
+
+#resultado{
+
+	font-size: 35px;
+}
+
+

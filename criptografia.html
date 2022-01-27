@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="criptografia.css">
+	<title>Criptografia</title>
+
+</head>
+
+<body>
+
+	<header>
+
+		<h1>Criptografe seus textos!</h1>
+
+	</header>
+
+
+	<main>
+
+		<p> <label for="digite_aqui_seu_texto">Digite aqui seu texto!</label></p>
+		<input type="text" id="digite_aqui_seu_texto" required placeholder="Digite apenas letras minusculas e ignore os assentos." class="input-texto">
+		<button type="submit" value="Clique aqui para criptografar" class="botao" id="criptografa">"Clique aqui para criptografar"</button>
+		<button type="submit" value="Clique aqui para descriptografar" class="botao" id="descriptografa">"Clique aqui para descriptografar"</button>
+
+
+		<p id="resultado" ondblclick="copia()" >Seu resultado aparece aqui!</p><br>
+		<h2>Clique duas vezes sobre o resultado para copiar!</h2>
+		
+
+
+
+			<script type="text/javascript" src="criptografia.js">
+
+
+
+			</script>
+
+
+
+	</main>
+
+	<footer>
+		2022 - Kaio Machado
+	</footer>
+
+</body>
+</html>
